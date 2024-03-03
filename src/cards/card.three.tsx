@@ -8,7 +8,7 @@ import CardCenter from "../components/card.center";
 const CardThree = () => {
   return (
     <CardContainer
-      className={`w-full lg:w-[255px] h-fit lg:h-[572px] bg-[#FFFFFF]`}
+      className={`w-full lg:w-[255px] h-fit sm:h-full lg:h-[572px] bg-[#FFFFFF]`}
     >
       <CardCenter>
         <CardHeader
