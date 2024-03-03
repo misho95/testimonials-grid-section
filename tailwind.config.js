@@ -2,7 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        bsc: "Barlow Semi Condensed, sans-serif",
+      },
+    },
   },
   plugins: [],
 };
